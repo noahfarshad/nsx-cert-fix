@@ -1,0 +1,4 @@
+nsx_cert_fix_*/
+*.key
+*.crt
+*.csr
