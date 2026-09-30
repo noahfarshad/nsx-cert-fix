@@ -3,7 +3,7 @@
 Replace expired NSX Manager API certificates, and delete a failed edge deployment when you name it. Plan is the default. Nothing is written without `--commit`.
 
 License: GPL-3.0. Built and proved out for [essential.coach](https://essential.coach).
-Full write-up: [VCF on VxRail: What to Check First When the Estate Has Been Left Alone](https://essential.coach/vcf-on-vxrail-what-to-check-first/).
+Full write-up: [When the NSX Manager Certificate Is Already Expired](https://essential.coach/nsx-manager-certificate-already-expired/).
 
 This is the certificate follow-on, not the assessment. Read the managers first. Rotate after you know which certificates are expired.
 
