@@ -11,9 +11,9 @@ This is the certificate follow-on, not the assessment. Read the managers first. 
 
 ```bash
 export NSX_PASSWORD=...
-python3 nsx_cert_fix.py --manager nsx.example.com
-python3 nsx_cert_fix.py --manager nsx.example.com --commit
-python3 nsx_cert_fix.py --manager nsx.example.com --delete-edges edge01,edge02 --commit
+python3 nsx_cert_fix.py --manager nsx.essential.coach
+python3 nsx_cert_fix.py --manager nsx.essential.coach --commit
+python3 nsx_cert_fix.py --manager nsx.essential.coach --delete-edges edge01,edge02 --commit
 ```
 
 Each node's API certificate is applied one node at a time. The cluster VIP certificate is last. The API on a node is unavailable for about a minute while it applies. The data plane is not touched.
